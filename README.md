@@ -57,9 +57,12 @@ Cross-validation is performed with different fold sizes (3, 5, and 10) to ensure
 ## Setup and Usage
 
 1. Clone the repository
+```sh
+git clone https://github.com/Predicting-amount-of-physical-activity-in-week-using-regression-in-machine-learning.git
+```
 2. Install required packages:
 ```sh
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r Requirements.txt
 ```
 3. Run the notebooks in order:
    - First `EDA.ipynb`
